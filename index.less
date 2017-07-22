@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #4a4a4a;
+  margin: 35px 10% 0;
+  font-family: Georgia, 'Droid Serif', Cambria,"Times New Roman",Times,serif;
+}
+.header {
+  h1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid salmon;
+    color: #D81B60;
+    letter-spacing: .003em;
+  }
+  i {
+    // color: #b71c1c;
+    color: red;
+  }
+}
+.content {
+  p {
+    color: #4a4a4a;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+  }
+}
+.text-center {
+  text-align: center;
+}
+::selection {
+  background: #9e073d;
+  color: white;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #9e073d;
+  color: white;
+  /* Gecko Browsers */
+}
+
+.story {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 15px;
+}
+.kamalImage {
+  text-align: center;
+  margin: 15px 0;
+}
+.billboard_image {
+  margin: 15px auto;
+  width: 600px;
+  height: auto;
+  display: block;
+  @media screen and (max-width: 768px) {
+   width: 230px; 
+  }
+}
+.transplant_image {
+  display: block;
+  width: 700px;
+  height: auto;
+  margin: 15px auto;
+  @media screen and (max-width: 768px) {
+    width: 300px;
+  }
+}
