@@ -104,3 +104,13 @@ a:hover {
   list-style: none;
   border-bottom: 1px dotted #ddd;
  }
+.table {
+  width: 80%;
+  max-width: 80%;
+  margin: 20px auto;
+}
+.table, tr, td,th {
+  border: 1px solid salmon;
+  border-collapse: collapse;
+  padding: 10px;
+}
